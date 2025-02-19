@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Banty Kumar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <img src="logo.png" alt="Logo" class="logo">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Hi, There!</h1>
+            <h2>I'm</h2>
+            <h1 class="name">Banty Kumar</h1>
+            <p>I’m Banty Kumar, a Full Stack Developer with a passion for creating dynamic web applications. I specialize in frontend technologies like React.js, HTML, CSS, and backend technologies such as Node.js and MongoDB. I’m always eager to learn and build solutions that provide great user experiences</p>
+            <div class="hero-buttons">
+                <button class="hire-me">Hire me</button>
+                <a href="https://drive.google.com/file/d/1lxGBrBN-DR_YylbMWCXeT351j7S-V816/view?usp=sharing" download class="download-cv">Download CV</a>
+            </div>
+        </div>
+        <img src="image.jpg" alt="Hero Image" class="hero-image">
+    </section>
+    
+    <!-- About Section -->
+    <section id="about">
+        <h1>About Me</h1>
+        <div class="about-container">
+            <img src="image.jpg" alt="Banty Kumar" class="about-image"> 
+            <div class="about-content">
+                <p>Hello, I'm <strong>Banty Kumar</strong>, an MCA student and a passionate web developer.</p>
+                <p>I specialize in <strong>Full Stack Development</strong>, working with technologies like <strong>HTML, CSS, JavaScript, React.js, Node.js, and MongoDB</strong>.</p>
+                <p>My goal is to build <strong>scalable</strong> and <strong>efficient</strong> web applications that provide a seamless user experience.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <h3>Master of Computer Applications (MCA)</h3>
+                <p>Chandigarh University, Punjab, 2025</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Bachelor of Computer Applications (BCA)</h3>
+                <p>VBU, Hazaribagh, Jharkhand, 2022</p>
+                <p>CGPA - 7.91</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <ul>
+                <li><strong>Frontend:</strong> HTML, CSS, JavaScript, React.js, Next.js</li>
+                <li><strong>Backend:</strong> Node.js, Express.js</li>
+                <li><strong>Databases:</strong> MongoDB, MySQL</li>
+                <li><strong>API Development:</strong> REST API Development</li>
+                <li><strong>Version Control:</strong> Git & GitHub</li>
+                <li><strong>Data Visualization:</strong> Tableau</li>
+                <li><strong>Embedded Systems & IoT:</strong> Internet of Things (IoT)</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="gray_bg project-area section-padding">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="single-project">
+                <img src="amazon.png" alt="Amazon Clone" class="project-image">
+                <h3>Amazon Clone</h3>
+                <p>Built an Amazon Clone using HTML, CSS, JavaScript, and Bootstrap to replicate key features of the Amazon e-commerce site. Focused on responsive design and interactive elements like dynamic cart updates. The project improved my skills in front-end development and creating user-friendly interfaces.</p>
+                <button class="Read-More">Read-More</button>
+            </div>
+            <div class="single-project">
+                <img src="lms.png" alt="Blogging Platform" class="project-image"> 
+                <h3>PlacementLo-(LMS)</h3>
+                <p>Built a Learning Management System (LMS) that allows students to access courses, track progress, and interact with instructors. The system includes features for user registration, course management, quizzes, and more.</p>
+                <button class="Read-More">Read-More</button>
+            </div>
+            <div class="single-project">
+                <img src="todo.png" alt="Real-time Chat App" class="project-image"> 
+                <h3>TODO-List</h3>
+                <p>Developed a To-Do List application using Node.js and MongoDB for managing user tasks. The app allows users to add, edit, delete, and mark tasks as complete.</p>
+                <button class="Read-More">Read-More</button>
+            </div>
+            <div class="single-project">
+                <img src="cal-node.png" alt="Calculator" class="project-image"> 
+                <h3>Calculator</h3>
+                <p>Built a Calculator application using Node.js to perform basic arithmetic operations like addition, subtraction, multiplication, and division. The app is designed with a simple command-line interface.</p>
+                <button class="Read-More">Read-More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="tel" name="phone" pattern="[0-9]{10}" placeholder="Your Phone Number" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p>Email: bantykr0205@gmail.com</p>
+        <p>Phone: +91 6203172363</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/banty-kumar-792856301/" target="_blank">linkedin.com/in/bantykumar</a></p>
+        <p>GitHub: <a href="https://github.com/bantykumar02" target="_blank">github.com/bantykumar02</a></p>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Banty Kumar. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
